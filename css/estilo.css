@@ -12,14 +12,14 @@ body {
 
 .main-menu{
     background-color: #424769;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
 .main-menu ul {
     list-style: none;
     padding: 0px;
+    border-bottom: 2px solid #000000;
 }
 
 .main-menu ul li {
@@ -35,6 +35,7 @@ body {
     color: #FFF;
     padding: 15px;
     display: inline-block;
+    border-radius: 2px;
     text-decoration: none;
 }
 
@@ -53,7 +54,7 @@ body {
 
 .tipo-de-login li{
     text-align: center;
-    width: 75%;
+    width: 80%;
     vertical-align: top;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -67,6 +68,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-top: 10px;
+    margin: 15px auto;
 }
 .tipo-de-login h3 {
     font-size: 20px;
@@ -79,4 +81,39 @@ body {
 }
 .produto-descricao {
     font-size: 15px;
+}
+
+.sobre-nos-design {
+    width: 80%;
+    margin: auto;
+    color: #FFF;
+}
+
+.sobre-nos-design h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sobre-nos-design ul li {  
+    border-radius: 7px;
+    margin: 10px;
+    background-color: #424769;
+    padding: 12px 0px;
+}
+
+.sobre-nos-design ul li h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 0;
+    padding: 15px ;
+    color: #FFF;
+    
+}
+
+.sobre-nos-design ul li p{
+    background-color: #676f9d;
+    padding: 15px;
+   
+    
 }
