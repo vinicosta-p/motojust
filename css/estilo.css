@@ -1,8 +1,4 @@
-body {
-    background-color: #2d3250;
-}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 * {
     margin: 0 auto;
     padding: 0;
@@ -10,41 +6,77 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#main-menu{
+body {
+    background-color: #2d3250;
+}
+
+.main-menu{
     background-color: #424769;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-#main-menu ul {
+.main-menu ul {
     list-style: none;
     padding: 0px;
 }
 
-#main-menu ul li {
+.main-menu ul li {
     display: inline;
 }
 
-#main-menu ul li img {
-    width: 75px;
-    height: 75px;
+.main-menu ul li img {
+    width: 65px;
+    height: 65px;
 }
 
-#main-menu ul li a {
+.main-menu ul li a {
     color: #FFF;
-    padding: 25px;
+    padding: 15px;
     display: inline-block;
     text-decoration: none;
 }
 
-#main-menu ul li a:hover {
+.main-menu ul li a:hover {
     background-color: #FFB177;
 }
 
-#main-menu ul li:last-child a {
+.main-menu ul li:last-child a {
     background-color: #FFB177;
 }
 
+.tipo-de-login {
+    margin: 0 auto;
+    padding: 50px 0;
+}
 
+.tipo-de-login li{
+    text-align: center;
+    width: 75%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #FFB177;
+}
 
+.tipo-de-login h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tipo-de-login h3 {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.tipo-de-login li img {
+    width: inherit;
+    height: inherit;
+}
+.produto-descricao {
+    font-size: 15px;
+}
